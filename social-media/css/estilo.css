@@ -1,0 +1,117 @@
+@charset"utf-8";
+
+	div#publish{
+		margin-top: 20px;
+	}
+
+	div#publish .button-hidden{
+		display: none;
+	}
+
+	div#publish textarea{
+		width: 100%;
+		border-radius: 5px; 
+		border-width: 1px; 
+		border-color: #1E8F99;
+	}
+
+	div#publish .img-index {
+		width: 110px;
+		height: 110px; 
+		cursor: pointer;
+		border-radius: 600px;
+		
+	}	
+
+	div#publish .camera-index {
+		width: 55px; 
+		cursor: pointer;
+		float: left;
+	}
+
+	div#publish input[type="submit"]{ 
+		width: 65%;
+		float: right;
+		height: 25px; 
+		border-radius: 3px; 
+		border: none; 
+		background: #fff; 
+		color: #464647; 
+		cursor: pointer;
+		margin-top: 15px;
+	}
+
+	div#publish input[type="submit"]:hover{
+		background: #fff;
+		box-shadow: 0px 0px 0px #e6e6e6;
+	}
+
+	
+
+	div.pub{
+		width: 100%; 
+		height: auto;	
+		display: block; 
+		margin: auto; 
+		border: none; 
+		border-radius: 5px; 
+		background-color: #FFF; 
+		box-shadow: 0 0 6px #A1A1A1; 
+		margin-top: 30px;
+	}
+
+	div.pub a{
+		color: #666; 
+		text-decoration: none;
+	}
+
+	div.pub a:hover{
+		color: #111; 
+		text-decoration: none;
+	}
+
+	div.pub p{
+		margin-left: 10px; 
+		content: #666; 
+		padding-top: 10px;
+	}
+
+	div.pub span{
+		display: block; 
+		margin: auto; 
+		width: 96%;
+		margin-top: 10px;
+	}
+
+	div.pub img{
+		display: block; 
+		margin: auto; 
+		width: 100%; 
+		margin-top: 10px; 
+		border-bottom-left-radius: 5px; 
+		border-bottom-right-radius: 5px;
+	}
+
+	div#love{
+		width: 100%; 
+		height: 30px; 
+		display: block; 
+		margin: auto; 
+		border: none; 
+		border-radius: 5px; 
+		background: #1F6799; 
+		margin-top: 5px;
+	}
+
+	div#love p{
+		color: #FFF; 
+		font-size: 12px; 
+		padding-top: 5px; 
+		padding-left: 5px;
+	}
+
+	div#love a{
+		color: #FFF; 
+		font-size: 16px; 
+		text-decoration: none;
+	}
